@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-require("dotenv").config();
+// Uncomment when running locally
+// require("dotenv").config();
 
 mongoose
   .connect(process.env.ATLAS_URL)

@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
-require("dotenv").config();
+// Uncomment when running locally
+// require("dotenv").config();
 
 router.get("/test", (req, res) => {
   res.send("Banner route testing");
